@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nameFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Name file"
+            style="@style/customH2"
+            />
+        <TableRow
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/iconFile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="centerCrop"
+                style="@style/customH2"
+                />
+            <TextView
+                android:id="@+id/sizeFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Size file"
+                style="@style/customH2"
+                />
+            <TextView
+                android:id="@+id/dateFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="date create file"
+                style="@style/customH2"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
